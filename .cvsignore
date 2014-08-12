@@ -27,3 +27,4 @@ ipch*/
 /project/VS2010Express/pvr.p2pproxy.*.zip
 /project/VS2010Express/*.metaproj*
 *.svnsh
+.cvsignore
