@@ -1,5 +1,5 @@
-m4_define([MAJOR], 1)
-m4_define([MINOR], 9)
+m4_define([MAJOR], 0)
+m4_define([MINOR], 0)
 m4_define([MICRO], 3)
 
 dnl Process this file with autoconf to produce a configure script.
