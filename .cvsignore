@@ -26,6 +26,4 @@
 ipch*/
 /project/VS2010Express/pvr.p2pproxy.*.zip
 /project/VS2010Express/*.metaproj*
-2_UPDATE
-3_COMMIT
-1_CHECKOUT
+*.svnsh
