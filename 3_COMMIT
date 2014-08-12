@@ -5,4 +5,8 @@ UNAM="const586"
 PASS="1BV5FUb"
 MESS="$1"
 
+svn propset svn:ignore -F 1_CHECKOUT .
+svn propset svn:ignore -F 2_UPDATE .
+svn propset svn:ignore -F 3_COMMIT .
+
 svn commit --username $UNAM --password $PASS -m "$MESS"
