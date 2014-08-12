@@ -1,0 +1,7 @@
+﻿#!/bin/bash
+REPO="xbmc-addon-p2pproxy"
+
+echo STATUS...
+svn status
+svn add --force *
+svn status | grep '\!' | awk '{print $2;}' | xargs svn rm

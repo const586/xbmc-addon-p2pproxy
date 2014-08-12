@@ -2,20 +2,30 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
-*.lib
 
-# Executables
-*.exe
-*.out
-*.app
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.filters
+*.pdb
+*.exp
+*.ilk
+[Dd]ebug*/
+[Rr]elease*/
+[._][rR]e[sS]harper*/
+ipch*/
+/project/VS2010Express/pvr.p2pproxy.*.zip
+/project/VS2010Express/*.metaproj*
+2_UPDATE
+3_COMMIT
+1_CHECKOUT
