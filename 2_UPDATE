@@ -1,4 +1,6 @@
 ﻿#!/bin/bash
+
+##CONST
 REPO="xbmc-addon-p2pproxy"
 
 svn propset svn:ignore -F 1_CHECKOUT .

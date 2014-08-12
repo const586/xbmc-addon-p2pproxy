@@ -1,4 +1,5 @@
 ﻿#!/bin/bash
+##CONST
 REPO="xbmc-addon-p2pproxy"
 UNAM="const586"
 PASS="1BV5FUb"
