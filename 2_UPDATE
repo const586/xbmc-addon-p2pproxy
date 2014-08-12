@@ -3,10 +3,7 @@
 ##CONST
 REPO="xbmc-addon-p2pproxy"
 
-svn propset svn:ignore -F 1_CHECKOUT .
-svn propset svn:ignore -F 2_UPDATE .
-svn propset svn:ignore -F 3_COMMIT .
 echo STATUS...
 svn status
-svn add --force *
+svn add --force .
 svn status | grep '\!' | awk '{print $2;}' | xargs svn rm
