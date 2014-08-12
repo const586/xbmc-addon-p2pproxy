@@ -1,4 +1,0 @@
-﻿#!/bin/bash
-cd ..
-REPO="xbmc-addon-p2pproxy"
-svn checkout https://github.com/const586/xbmc-addon-p2pproxy.git/trunk  $REPO --username const586
