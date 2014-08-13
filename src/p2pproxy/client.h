@@ -27,7 +27,7 @@
 #include "libXBMC_pvr.h"
 #include "libXBMC_gui.h"
 
-#define PVR_CLIENT_VERSION     "0.0.2"
+#define PVR_CLIENT_VERSION     "0.0.3"
 #define PLAYLIST_FILE_NAME          "playlist"
 #define TVG_FILE_NAME          "epg"
 #define RECORD_FILE_NAME "records"
