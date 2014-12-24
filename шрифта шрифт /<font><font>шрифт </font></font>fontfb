@@ -1,0 +1,5 @@
+<advancedsettings>
+<network>
+<cachemembuffersize>300000</cachemembuffersize>
+</network>
+</advancedsettings>
