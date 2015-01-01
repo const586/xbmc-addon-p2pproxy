@@ -981,7 +981,7 @@ int PVRIptvData::GetTimersAmount()
 	return c;
 }
 
-string to_string(int val)
+string tostring(int val)
 {
 	char buf[2 * 32];
 	snprintf(buf, sizeof(buf), "%d", val);
@@ -1002,7 +1002,7 @@ PVR_ERROR PVRIptvData::AddTimer(const PVR_TIMER &timer)
 	request.append("channel_id=");
 	
 	//request.append(std::to_string((_Longlong)timer.iClientChannelUid));
-	request.append(to_string(timer.iClientChannelUid));
+	request.append(tostring(timer.iClientChannelUid));
 	request.append("&start=");
 	request.append(DateTimeToString(timer.startTime));
 	request.append("&end=");

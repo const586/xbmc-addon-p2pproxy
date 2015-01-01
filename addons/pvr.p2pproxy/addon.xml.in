@@ -12,8 +12,8 @@
     point="xbmc.pvrclient"
     library_linux="p2pproxy.pvr"
     library_osx="p2pproxy.pvr"
-    library_wingl="p2pproxy.dll"
-    library_windx="p2pproxy.dll"
+    library_wingl="pvr.p2pproxy.dll"
+    library_windx="pvr.p2pproxy.dll"
     library_android="p2pproxy.so" />
   <extension point="xbmc.addon.metadata">
     <platform>linux windx wingl osx android</platform>
